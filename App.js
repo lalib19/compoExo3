@@ -19,13 +19,12 @@ container: {
 },
 image: {
   flex: 3,
-  resizeMode: 'contain', 
+  // resizeMode: 'contain',
+  height: 300, 
   width: "100%",
-  // borderRadius: 15,
-  // borderStyle: "solid",
-  // borderColor: "black",
-  // borderWidth: 1,
-  // borderRightWidth: 1,
+  borderRadius: 15,
+  borderColor: "black",
+  borderWidth: 1,
   
 },
 text: {
